@@ -45,7 +45,13 @@
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5dW-e3-s4F" secondAttribute="height" multiplier="1:1" id="hGg-xU-aXT"/>
+                                            <constraint firstAttribute="width" secondItem="5dW-e3-s4F" secondAttribute="height" multiplier="1:1" id="mV1-ip-jMW"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="hGg-xU-aXT"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="tzq-hY-BZL" appends="YES" id="xzg-Xa-RlH"/>
                                         </connections>
