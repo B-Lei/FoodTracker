@@ -78,8 +78,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Xu4-Ug-Max">
-                                <frame key="frameInset" minX="20" minY="80" width="343" height="418"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Xu4-Ug-Max">
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2fv-Ze-tVq">
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -112,9 +111,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Xu4-Ug-Max" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="9u1-59-ECR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Xu4-Ug-Max" secondAttribute="trailing" id="elO-mR-UtP"/>
-                            <constraint firstItem="Xu4-Ug-Max" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="o3m-fj-hls"/>
+                            <constraint firstItem="Xu4-Ug-Max" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="9u1-59-ECR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xu4-Ug-Max" secondAttribute="trailing" constant="-4" id="elO-mR-UtP"/>
+                            <constraint firstItem="Xu4-Ug-Max" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="o3m-fj-hls"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="trq-ma-qwG">
